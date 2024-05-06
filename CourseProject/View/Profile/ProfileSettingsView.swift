@@ -9,8 +9,8 @@ import SwiftUI
 
 struct ProfileSettingsView: View {
     
-    @State private var name: String = ""
-    @State private var carType: String = ""
+    @Binding var name: String
+    @Binding var carType: String
     @Environment(\.presentationMode) var presentationMode
     
     
@@ -39,8 +39,8 @@ struct ProfileSettingsView: View {
             
             Button(action: {
                             // Pass the name and car type values to profileView
-                            profileView.name = name
-                            profileView.carType = carType
+                            name = name
+                            carType = carType
                 
                 self.presentationMode.wrappedValue.dismiss()
                         }) {
@@ -57,5 +57,5 @@ struct ProfileSettingsView: View {
 }
 
 #Preview {
-    ProfileSettingsView()
+    ProfileSettingsView(name: .constant("Test"), carType: .constant("Volvo"))
 }

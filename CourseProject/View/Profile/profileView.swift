@@ -8,21 +8,23 @@
 import SwiftUI
 
 struct profileView: View {
-    static var name: String = ""
-    static var carType: String = ""
+    @State var name: String = "test"
+    @State var carType: String = "Jaman"
     
     var body: some View {
         NavigationView{
             VStack(alignment: .center){
                 
-                NavigationLink {
-                    ProfileSettingsView()
-                } label: {
-                    Image(systemName: "pencil")
-                }
-                .padding(.leading, 300.0)
-                .padding(.top, -5.0)
-                .font(.system(size: 25))
+                HStack {
+                    
+                Spacer()
+                    
+                NavigationLink(destination: ProfileSettingsView(name: $name, carType: $carType))
+                    {
+                Image(systemName: "pencil")
+                                .font(.system(size: 25))
+                                    }
+                                }
                 
 
                 
@@ -31,12 +33,12 @@ struct profileView: View {
                   .aspectRatio(contentMode: .fill)
                   .frame(width: 150, height: 150)
                   .clipShape(RoundedRectangle(cornerRadius: 100))
-                Text(profileView.name)
+                Text(name)
                 Text("200 Punten")
                 
                 HStack{
                     Image(systemName: "car.fill")
-                    Text(profileView.carType)
+                    Text(carType)
                 }
                 
                 HStack{

@@ -8,8 +8,15 @@
 import SwiftUI
 
 struct FirstLaunchView: View {
+    @AppStorage("isFirstLaunch") var isFirstLaunch = true
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("First Launch")
+            Button("Finish Onboarding") {
+                isFirstLaunch = false
+            }
+        }
     }
 }
 

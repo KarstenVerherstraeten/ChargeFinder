@@ -9,9 +9,16 @@ import SwiftUI
 
 @main
 struct CourseProjectApp: App {
+    @AppStorage("isFirstLaunch") var isFirstLaunch = true
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if isFirstLaunch {
+                FirstLaunchView()
+            } else {
+                ContentView()
+            }
         }
     }
 }
+
