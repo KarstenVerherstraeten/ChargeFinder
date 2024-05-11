@@ -9,9 +9,10 @@ import SwiftUI
 
 struct ListView: View {
     @StateObject var data = FetchChargingPorts()
-
+    @State private var lastUpdated: Date? // Variable to store last update time
+    
     var body: some View {
-        NavigationView { // Wrap the List in a NavigationView
+        NavigationView {
             VStack(alignment: .center) {
                 List(data.posts) { charger in
                     NavigationLink(destination: ChargerDetailedView(charger: charger)) {
@@ -24,17 +25,50 @@ struct ListView: View {
                         }
                     }
                 }
+                .onAppear {
+                    data.fetchPosts() // Fetch data when the view appears
+                    // Retrieve the last updated time from UserDefaults
+                    if let cachedTime = UserDefaults.standard.object(forKey: "lastUpdatedTime") as? Date {
+                        lastUpdated = cachedTime
+                    }
+                }
+                .onReceive(data.$posts) { _ in
+                    // Update the last updated time when new data is received and cached
+                    lastUpdated = Date()
+                    // Save the new last updated time to UserDefaults
+                    UserDefaults.standard.set(lastUpdated, forKey: "lastUpdatedTime")
+                }
+                
+                // Display last updated time
+                if let lastUpdated = lastUpdated {
+                    Text("Laatst bijgewerkt: \(formattedLastUpdatedDate(lastUpdated))")
+                        .font(.caption)
+                        .foregroundColor(.gray)
+                }
             }
-            .navigationTitle("Charging Ports") // Set a navigation title
+            .navigationTitle("Charging Ports")
         }
-        .onAppear {
-            data.fetchPosts()
-        }
+    }
+    
+    // Method to format last updated date
+    private func formattedLastUpdatedDate(_ date: Date) -> String {
+        let formatter = DateFormatter()
+        formatter.dateStyle = .short
+        formatter.timeStyle = .short
+        return formatter.string(from: date)
     }
 }
 
 
 
+
+
+
+
+
+
+
+
 #Preview {
-    profileView()
+    ListView()
 }

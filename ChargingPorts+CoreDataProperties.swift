@@ -15,8 +15,7 @@ extension ChargingPorts {
     @nonobjc public class func fetchRequest() -> NSFetchRequest<ChargingPorts> {
         return NSFetchRequest<ChargingPorts>(entityName: "ChargingPorts")
     }
-
-    @NSManaged public var name: String?
+    
     @NSManaged public var id: String?
     @NSManaged public var adrvoisnl: String?
     @NSManaged public var gemeente: String?

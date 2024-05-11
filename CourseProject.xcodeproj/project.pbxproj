@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D0ABC292BEA69AD005BBD0C /* ChargingPorts+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0ABC272BEA69AD005BBD0C /* ChargingPorts+CoreDataClass.swift */; };
+		3D0ABC2A2BEA69AD005BBD0C /* ChargingPorts+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0ABC282BEA69AD005BBD0C /* ChargingPorts+CoreDataProperties.swift */; };
 		3D62EE9F2BB7071E005EC218 /* CourseProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D62EE9E2BB7071E005EC218 /* CourseProjectApp.swift */; };
 		3D62EEA12BB7071E005EC218 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D62EEA02BB7071E005EC218 /* ContentView.swift */; };
 		3D62EEA32BB70720005EC218 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D62EEA22BB70720005EC218 /* Assets.xcassets */; };
@@ -23,6 +25,7 @@
 		3D6B45732BBF413E00DE6053 /* CustomProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6B45722BBF413E00DE6053 /* CustomProgressBar.swift */; };
 		3D6B45752BBF44DE00DE6053 /* ComunityPrestatieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6B45742BBF44DE00DE6053 /* ComunityPrestatieView.swift */; };
 		3D6CCC2B2BE7CFFB0077C371 /* FirstLaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6CCC2A2BE7CFFB0077C371 /* FirstLaunchView.swift */; };
+		3D6CCC2D2BE8ECA50077C371 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6CCC2C2BE8ECA50077C371 /* NetworkManager.swift */; };
 		3DB308C02BD29BBB0086B138 /* chargingPorts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB308BF2BD29BBB0086B138 /* chargingPorts.swift */; };
 		3DB308C22BD29EB70086B138 /* fetchChargingPorts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB308C12BD29EB70086B138 /* fetchChargingPorts.swift */; };
 		3DB308C42BD2A3F60086B138 /* chargerDetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB308C32BD2A3F60086B138 /* chargerDetailedView.swift */; };
@@ -46,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D0ABC272BEA69AD005BBD0C /* ChargingPorts+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChargingPorts+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3D0ABC282BEA69AD005BBD0C /* ChargingPorts+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChargingPorts+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		3D62EE9B2BB7071E005EC218 /* CourseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CourseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D62EE9E2BB7071E005EC218 /* CourseProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseProjectApp.swift; sourceTree = "<group>"; };
 		3D62EEA02BB7071E005EC218 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -66,6 +71,7 @@
 		3D6B45722BBF413E00DE6053 /* CustomProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProgressBar.swift; sourceTree = "<group>"; };
 		3D6B45742BBF44DE00DE6053 /* ComunityPrestatieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComunityPrestatieView.swift; sourceTree = "<group>"; };
 		3D6CCC2A2BE7CFFB0077C371 /* FirstLaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstLaunchView.swift; sourceTree = "<group>"; };
+		3D6CCC2C2BE8ECA50077C371 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		3DB308BF2BD29BBB0086B138 /* chargingPorts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chargingPorts.swift; sourceTree = "<group>"; };
 		3DB308C12BD29EB70086B138 /* fetchChargingPorts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fetchChargingPorts.swift; sourceTree = "<group>"; };
 		3DB308C32BD2A3F60086B138 /* chargerDetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = chargerDetailedView.swift; path = Prestaties/chargerDetailedView.swift; sourceTree = "<group>"; };
@@ -99,6 +105,8 @@
 		3D62EE922BB7071E005EC218 = {
 			isa = PBXGroup;
 			children = (
+				3D0ABC272BEA69AD005BBD0C /* ChargingPorts+CoreDataClass.swift */,
+				3D0ABC282BEA69AD005BBD0C /* ChargingPorts+CoreDataProperties.swift */,
 				3D62EE9D2BB7071E005EC218 /* CourseProject */,
 				3D62EEAE2BB70720005EC218 /* CourseProjectTests */,
 				3D62EEB82BB70720005EC218 /* CourseProjectUITests */,
@@ -174,6 +182,7 @@
 				3D6B45702BBF397C00DE6053 /* prestaties.swift */,
 				3DB308BF2BD29BBB0086B138 /* chargingPorts.swift */,
 				3DB308C12BD29EB70086B138 /* fetchChargingPorts.swift */,
+				3D6CCC2C2BE8ECA50077C371 /* NetworkManager.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -339,6 +348,9 @@
 				3DB308C22BD29EB70086B138 /* fetchChargingPorts.swift in Sources */,
 				3DB308C42BD2A3F60086B138 /* chargerDetailedView.swift in Sources */,
 				3D62EECB2BB7084D005EC218 /* profileView.swift in Sources */,
+				3D0ABC292BEA69AD005BBD0C /* ChargingPorts+CoreDataClass.swift in Sources */,
+				3D0ABC2A2BEA69AD005BBD0C /* ChargingPorts+CoreDataProperties.swift in Sources */,
+				3D6CCC2D2BE8ECA50077C371 /* NetworkManager.swift in Sources */,
 				3D6B456E2BBEB2FB00DE6053 /* ProfileSettingsView.swift in Sources */,
 				3D6B45712BBF397C00DE6053 /* prestaties.swift in Sources */,
 			);
@@ -507,6 +519,9 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CourseProject/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Lets Stalk U!";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -536,6 +551,9 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CourseProject/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Lets Stalk U!";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

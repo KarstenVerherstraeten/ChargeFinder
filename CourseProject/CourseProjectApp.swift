@@ -11,6 +11,9 @@ import SwiftUI
 struct CourseProjectApp: App {
     @AppStorage("isFirstLaunch") var isFirstLaunch = true
     
+    
+    
+    
     var body: some Scene {
         WindowGroup {
             if isFirstLaunch {
