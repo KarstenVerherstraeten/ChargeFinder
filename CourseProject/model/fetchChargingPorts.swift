@@ -1,7 +1,7 @@
 //
 //  fetchChargingPorts.swift
 //  CourseProject
-//
+//  Partialy helped by chatGPT
 //  Created by Karsten Verherstraeten on 19/04/2024.
 //
 

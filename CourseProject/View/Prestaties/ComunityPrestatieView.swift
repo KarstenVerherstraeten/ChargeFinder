@@ -2,6 +2,8 @@
 //  ComunityPrestatieView.swift
 //  CourseProject
 //
+//  The idea was to work all the tabs out but i forgot
+//
 //  Created by Karsten Verherstraeten on 04/04/2024.
 //
 

@@ -16,7 +16,7 @@
 		3D62EEB02BB70720005EC218 /* CourseProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D62EEAF2BB70720005EC218 /* CourseProjectTests.swift */; };
 		3D62EEBA2BB70720005EC218 /* CourseProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D62EEB92BB70720005EC218 /* CourseProjectUITests.swift */; };
 		3D62EEBC2BB70720005EC218 /* CourseProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D62EEBB2BB70720005EC218 /* CourseProjectUITestsLaunchTests.swift */; };
-		3D62EECB2BB7084D005EC218 /* profileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D62EECA2BB7084D005EC218 /* profileView.swift */; };
+		3D62EECB2BB7084D005EC218 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D62EECA2BB7084D005EC218 /* ProfileView.swift */; };
 		3D62EECD2BB70B11005EC218 /* listView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D62EECC2BB70B11005EC218 /* listView.swift */; };
 		3D62EECF2BB711B0005EC218 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D62EECE2BB711B0005EC218 /* MainView.swift */; };
 		3D6B456C2BBEAE8A00DE6053 /* PrestatieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6B456B2BBEAE8A00DE6053 /* PrestatieView.swift */; };
@@ -26,6 +26,8 @@
 		3D6B45752BBF44DE00DE6053 /* ComunityPrestatieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6B45742BBF44DE00DE6053 /* ComunityPrestatieView.swift */; };
 		3D6CCC2B2BE7CFFB0077C371 /* FirstLaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6CCC2A2BE7CFFB0077C371 /* FirstLaunchView.swift */; };
 		3D6CCC2D2BE8ECA50077C371 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6CCC2C2BE8ECA50077C371 /* NetworkManager.swift */; };
+		3DAA0AA72BEF646D005A4B16 /* ChargingPortCalloutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAA0AA62BEF646D005A4B16 /* ChargingPortCalloutView.swift */; };
+		3DAA0AA92BEF64C1005A4B16 /* ChargingPortAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAA0AA82BEF64C1005A4B16 /* ChargingPortAnnotation.swift */; };
 		3DB308C02BD29BBB0086B138 /* chargingPorts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB308BF2BD29BBB0086B138 /* chargingPorts.swift */; };
 		3DB308C22BD29EB70086B138 /* fetchChargingPorts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB308C12BD29EB70086B138 /* fetchChargingPorts.swift */; };
 		3DB308C42BD2A3F60086B138 /* chargerDetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB308C32BD2A3F60086B138 /* chargerDetailedView.swift */; };
@@ -62,7 +64,7 @@
 		3D62EEB92BB70720005EC218 /* CourseProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseProjectUITests.swift; sourceTree = "<group>"; };
 		3D62EEBB2BB70720005EC218 /* CourseProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3D62EEC82BB70746005EC218 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		3D62EECA2BB7084D005EC218 /* profileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileView.swift; sourceTree = "<group>"; };
+		3D62EECA2BB7084D005EC218 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		3D62EECC2BB70B11005EC218 /* listView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listView.swift; sourceTree = "<group>"; };
 		3D62EECE2BB711B0005EC218 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		3D6B456B2BBEAE8A00DE6053 /* PrestatieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrestatieView.swift; sourceTree = "<group>"; };
@@ -72,6 +74,8 @@
 		3D6B45742BBF44DE00DE6053 /* ComunityPrestatieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComunityPrestatieView.swift; sourceTree = "<group>"; };
 		3D6CCC2A2BE7CFFB0077C371 /* FirstLaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstLaunchView.swift; sourceTree = "<group>"; };
 		3D6CCC2C2BE8ECA50077C371 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		3DAA0AA62BEF646D005A4B16 /* ChargingPortCalloutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargingPortCalloutView.swift; sourceTree = "<group>"; };
+		3DAA0AA82BEF64C1005A4B16 /* ChargingPortAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargingPortAnnotation.swift; sourceTree = "<group>"; };
 		3DB308BF2BD29BBB0086B138 /* chargingPorts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chargingPorts.swift; sourceTree = "<group>"; };
 		3DB308C12BD29EB70086B138 /* fetchChargingPorts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fetchChargingPorts.swift; sourceTree = "<group>"; };
 		3DB308C32BD2A3F60086B138 /* chargerDetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = chargerDetailedView.swift; path = Prestaties/chargerDetailedView.swift; sourceTree = "<group>"; };
@@ -166,11 +170,11 @@
 		3D62EEC92BB70818005EC218 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3DAA0AA52BEF644C005A4B16 /* Map */,
 				3DB308C32BD2A3F60086B138 /* chargerDetailedView.swift */,
 				3D6B45772BBF450300DE6053 /* Prestaties */,
 				3D6B45762BBF44E500DE6053 /* Profile */,
 				3D62EECC2BB70B11005EC218 /* listView.swift */,
-				3D62EECE2BB711B0005EC218 /* MainView.swift */,
 				3D6CCC2A2BE7CFFB0077C371 /* FirstLaunchView.swift */,
 			);
 			path = View;
@@ -183,6 +187,7 @@
 				3DB308BF2BD29BBB0086B138 /* chargingPorts.swift */,
 				3DB308C12BD29EB70086B138 /* fetchChargingPorts.swift */,
 				3D6CCC2C2BE8ECA50077C371 /* NetworkManager.swift */,
+				3DAA0AA82BEF64C1005A4B16 /* ChargingPortAnnotation.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -191,7 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				3D6B456D2BBEB2FB00DE6053 /* ProfileSettingsView.swift */,
-				3D62EECA2BB7084D005EC218 /* profileView.swift */,
+				3D62EECA2BB7084D005EC218 /* ProfileView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -204,6 +209,15 @@
 				3D6B45742BBF44DE00DE6053 /* ComunityPrestatieView.swift */,
 			);
 			path = Prestaties;
+			sourceTree = "<group>";
+		};
+		3DAA0AA52BEF644C005A4B16 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				3D62EECE2BB711B0005EC218 /* MainView.swift */,
+				3DAA0AA62BEF646D005A4B16 /* ChargingPortCalloutView.swift */,
+			);
+			path = Map;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -337,6 +351,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D6B45752BBF44DE00DE6053 /* ComunityPrestatieView.swift in Sources */,
+				3DAA0AA72BEF646D005A4B16 /* ChargingPortCalloutView.swift in Sources */,
 				3D6B456C2BBEAE8A00DE6053 /* PrestatieView.swift in Sources */,
 				3D6B45732BBF413E00DE6053 /* CustomProgressBar.swift in Sources */,
 				3D62EECD2BB70B11005EC218 /* listView.swift in Sources */,
@@ -346,8 +361,9 @@
 				3D62EECF2BB711B0005EC218 /* MainView.swift in Sources */,
 				3D6CCC2B2BE7CFFB0077C371 /* FirstLaunchView.swift in Sources */,
 				3DB308C22BD29EB70086B138 /* fetchChargingPorts.swift in Sources */,
+				3DAA0AA92BEF64C1005A4B16 /* ChargingPortAnnotation.swift in Sources */,
 				3DB308C42BD2A3F60086B138 /* chargerDetailedView.swift in Sources */,
-				3D62EECB2BB7084D005EC218 /* profileView.swift in Sources */,
+				3D62EECB2BB7084D005EC218 /* ProfileView.swift in Sources */,
 				3D0ABC292BEA69AD005BBD0C /* ChargingPorts+CoreDataClass.swift in Sources */,
 				3D0ABC2A2BEA69AD005BBD0C /* ChargingPorts+CoreDataProperties.swift in Sources */,
 				3D6CCC2D2BE8ECA50077C371 /* NetworkManager.swift in Sources */,

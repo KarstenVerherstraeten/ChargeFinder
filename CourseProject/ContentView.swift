@@ -18,17 +18,23 @@ struct ContentView: View {
                 .tabItem {
                     Label("Chargers", systemImage: "list.triangle")
                 }.tag(0)
+                .accentColor(Color.yellow) // Set tab bar accent color to yellow
             
-            MainView().tabItem{ Label("map", systemImage: "map")}.tag(1)
+            MainView()
+                .tabItem {
+                    Label("Map", systemImage: "map")
+                }.tag(1)
+                .accentColor(Color.yellow) // Set tab bar accent color to yellow
             
-            profileView()
+            ProfileView()
                 .tabItem {
                     Label("Profile", systemImage: "person.crop.circle.fill")
                 }.tag(2)
+                .accentColor(Color.yellow) // Set tab bar accent color to yellow
         }
+        .accentColor(Color.yellow) // Set overall accent color to yellow
     }
 }
-
 #Preview {
     ContentView()
 }

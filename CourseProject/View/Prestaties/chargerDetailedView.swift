@@ -1,5 +1,5 @@
 //
-//  chargerDetailedView.swift
+//  ChargerDetailedView.swift
 //  CourseProject
 //
 //  Created by Karsten Verherstraeten on 19/04/2024.
@@ -11,16 +11,13 @@ struct ChargerDetailedView: View {
     let charger: ChargingPort
 
     var body: some View {
-        VStack {
+        VStack(alignment: .leading, spacing: 10) {
             Text(charger.gemeente)
-                .font(.title)
+                .font(.largeTitle)
             Text(charger.adrvoisnl)
-                .font(.subheadline)
-            // Add more details here as needed
+                .font(.headline)
         }
         .padding()
         .navigationTitle("Charger Details")
     }
 }
-
-

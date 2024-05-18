@@ -16,7 +16,7 @@ struct ListView: View {
             VStack(alignment: .center) {
                 List(data.posts) { charger in
                     NavigationLink(destination: ChargerDetailedView(charger: charger)) {
-                        VStack(alignment: .leading) {
+                        VStack(alignment: .leading, spacing: 5) {
                             Text(charger.gemeente)
                                 .font(.headline)
                             Text(charger.adrvoisnl)
@@ -25,6 +25,8 @@ struct ListView: View {
                         }
                     }
                 }
+                .listStyle(GroupedListStyle()) // Apple standard list style
+                
                 .onAppear {
                     data.fetchPosts() // Fetch data when the view appears
                     // Retrieve the last updated time from UserDefaults
@@ -41,7 +43,7 @@ struct ListView: View {
                 
                 // Display last updated time
                 if let lastUpdated = lastUpdated {
-                    Text("Laatst bijgewerkt: \(formattedLastUpdatedDate(lastUpdated))")
+                    Text("Last Updated: \(formattedLastUpdatedDate(lastUpdated))")
                         .font(.caption)
                         .foregroundColor(.gray)
                 }
@@ -58,16 +60,6 @@ struct ListView: View {
         return formatter.string(from: date)
     }
 }
-
-
-
-
-
-
-
-
-
-
 
 #Preview {
     ListView()
