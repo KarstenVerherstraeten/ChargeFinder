@@ -39,5 +39,16 @@ Welcome to the ChargeFinder App! This app is designed to provide users with a se
 - Achievements Tab: Track your progress and compare it with the community.
 
 
+## Sources:
+
+# Data 
+- [Data](https://opendata.brussels.be/explore/dataset/bornes-de-recharge-pour-voitures-electriques/api/?location=17,50.85262,4.38509&basemap=jawg.sunny) provided by the city of brussels
+
+# code:
+
+- [ChatGPT](https://chatgpt.com/)
+- [Apple Documentation](https://developer.apple.com/documentation/swiftui/)
+- [Medium](https://medium.com/)
+
 #
 I hope you enjoy using the CourseProject App as much as I enjoyed developing it! Happy charging and happy driving! 🚗⚡
